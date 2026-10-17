@@ -54,8 +54,3 @@ The pipeline creates a reproducible synthetic portfolio, trains on policy years 
 ## Limitations and next steps
 
 This is a demonstration, not a production pricing model. It omits policy exposure details, coverage and deductibles, inflation/trend, censoring, reinsurance, credibility, legal constraints, competitive response, and an approved actuarial rating plan. Synthetic relationships are known by construction, and this exercise does not establish real-world lift. Geography and age are used only to demonstrate segment reporting; their presence is not a recommendation for real pricing. A real deployment would need representative approved data, actuarial review, jurisdiction-specific fairness and compliance review, leakage controls, independent validation, governance, monitoring, and rollback plans.
-
-## Suggested interview summary
-
-â€œI built a reproducible synthetic personal-auto pricing lab. I modeled claim frequency with an exposure-weighted Poisson regression and claim severity with a Gamma regression, multiplied them into expected pure premium, and validated on a later policy year. I then checked calibration by risk decile and estimated capped segment-level premium impacts under explicit assumptions. The data and economics are synthetic, so the project demonstrates a disciplined workflow rather than a real insurer result.â€
-
