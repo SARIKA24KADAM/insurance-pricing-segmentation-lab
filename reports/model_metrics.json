@@ -1,0 +1,10 @@
+{
+  "holdout_policy_year": 2024,
+  "holdout_policies": 7827,
+  "frequency_poisson_deviance": 0.584083185429661,
+  "severity_gamma_deviance": 0.514218184908557,
+  "pure_premium_mae": 827.0459258469152,
+  "pure_premium_rmse": 2364.4133939971343,
+  "observed_loss_per_exposure": 471.54508877218404,
+  "predicted_pure_premium_mean": 407.4537858249033
+}
