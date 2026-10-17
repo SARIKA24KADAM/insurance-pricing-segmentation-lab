@@ -12,6 +12,9 @@ The workflow deliberately distinguishes risk estimation from a filed or deployab
 
 ## Quick start
 
+For setup instructions, a step-by-step walkthrough, and output interpretation, see the [project guide](docs/step_by_step_guide.md).
+
+
 Python 3.10+ is recommended.
 
 ```bash
